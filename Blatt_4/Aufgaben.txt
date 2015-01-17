@@ -1,0 +1,21 @@
+2.)
+Da die Suche nicht terminiert bevor das Ziel nicht erreicht wurde, wird ein entsprechend größerer Bereich des Graphen abgesucht.
+Da es sich um einen endlichen Graphen handelt (wenn wir Zyklen ausschließen), wird die Suche auf jeden Fall terminieren, nur wird
+kein Pfad zum Ziel gefunden.
+
+
+4.)
+Environment1
+	BFS - 6771 Elemente in der Queue - 0.0257s
+	DFS -  147 Elemente in der Queue - 0.0006s
+	A*  -   95 Elemente in der Queue - 0.0011s
+
+Environment2
+	BFS - 11971 Elemente in der Queue - 0.0587s
+	DFS -   151 Elemente in der Queue - 0.0008s
+	A*  -    99 Elemente in der Queue - 0.0011s
+
+Environment3
+	BFS - 544 Elemente in der Queue - 0.0017s 
+	DFS - 162 Elemente in der Queue - 0.0007s
+	A*  -  53 Elemente in der Queue - 0.0013s
