@@ -70,7 +70,7 @@ class puzzle:
         return int(h)
 
     def heuristikBS(self, bewegterStein, altePos, neuePos):
-        #die Neu-Bewertungen der Heuristik für den geänderten Stein
+        #die Neu-Bewertungen der Heuristik für den geaenderten Stein
         hAlt = math.fabs(altePos[0] - self.ziele[bewegterStein][0]) + math.fabs(altePos[1] - self.ziele[bewegterStein][1])
         hNeu = math.fabs(neuePos[0] - self.ziele[bewegterStein][0]) + math.fabs(neuePos[1] - self.ziele[bewegterStein][1])
         h =  hAlt - hNeu
